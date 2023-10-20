@@ -1,0 +1,890 @@
+        .service-banner .bg-color {
+            background: linear-gradient(256.67deg, #BFDB38 1.04%, #F6540E 98.44%);
+        }
+        
+        .service-banner .image-with-text-wrapper {
+            padding-top: 123px;
+            padding-bottom: 123px;
+        }
+        
+        .service-banner .container {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        
+        .service-banner .banner-heading {
+            margin-bottom: 10px;
+        }
+        
+        .service-banner .banner-text {
+            font-weight: 400;
+            text-transform: unset;
+            margin-bottom: 0px;
+            width: 100%;
+            max-width: 552px;
+        }
+        
+        .service-banner .button {
+            margin-top: 0px;
+        }
+        
+        .service-banner .button .banner-bt {
+            text-decoration: none;
+        }
+        
+        .service-banner .image-with-text-wrapper .text-tab {
+            padding-right: 0;
+        }
+        
+        .service-banner .image-with-text-wrapper .image-tab {
+            padding-left: 57px;
+        }
+        
+        .counter-wrapper {
+            width: 100%;
+            background-image: url(/assets/image/bg-counter-banner.png);
+        }
+        
+        .all-counter {
+            max-width: 875.09px;
+            margin: 0 auto;
+            justify-content: space-around;
+        }
+        
+        .counter .upper img {
+            width: 50px;
+            margin-right: 20px;
+        }
+        
+        .counter .upper {
+            margin-bottom: 15px;
+        }
+        
+        .counter .upper .counter-head {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 50px;
+            font-family: var(--body-font);
+            color: var(--white);
+        }
+        
+        .counter .upper span {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 50px;
+            font-family: var(--body-font);
+            color: var(--white);
+        }
+        
+        .counter .down .team {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            font-family: var(--body-font);
+            text-transform: capitalize;
+            color: var(--white);
+        }
+        
+        .service-head .back-txt {
+            font-weight: 700;
+            font-size: 128px;
+            line-height: 100px;
+            color: transparent;
+            font-family: var(--body-font);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #DFE0E5;
+        }
+        
+        .service-head {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .service-head .sub-text {
+            justify-content: center;
+            margin-top: -62px;
+        }
+        
+        .service-head .text {
+            color: #666666;
+            width: 100%;
+            max-width: 765px;
+            margin: 0 auto;
+        }
+        
+        .service-head {
+            width: 100%;
+            max-width: 1440px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+        
+        .service-tabs {
+            background-color: #EDF1F7;
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+        
+        .service-tab {
+            padding: 32px;
+            background-color: #FFFFFF;
+            overflow: hidden;
+            cursor: pointer;
+            transition: 500ms all ease;
+        }
+        
+        .service-tab .service-icon {
+            max-width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin: 0 auto 11px;
+        }
+        
+        .service-tab .service-heading {
+            font-size: 18px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+        
+        .service-tab .service-text {
+            font-size: 17px;
+            line-height: 26px;
+            font-style: normal;
+            font-weight: 400;
+            color: #666666;
+            width: 100%;
+            max-width: 347px;
+            margin: 0 auto 20px;
+        }
+        
+        .service-tab .service-link {
+            font-size: 15px;
+            line-height: 25px;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--red);
+            text-decoration: none;
+        }
+        
+        .service-tabs .flex {
+            row-gap: 30px;
+            margin-left: -20px;
+        }
+        
+        .service-tabs .flex-item {
+            padding-left: 20px;
+        }
+        
+        .service-tab:after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 100%;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(180deg, #FFFFFF 0%, #F6540E 73.96%);
+            z-index: 0;
+            transition: 500ms all ease;
+        }
+        
+        .service-tab:hover:after {
+            top: 0;
+        }
+        
+        .service-tab:before {
+            content: '';
+            display: block;
+            width: 115px;
+            height: 91px;
+            position: absolute;
+            top: -200px;
+            right: 0;
+            bottom: 0;
+            background-image: url('/assets/image/polygon-corner.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+            transition: 500ms all ease;
+        }
+        
+        .service-tab:hover:before {
+            top: 0;
+        }
+        
+        .service-tab:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-tab-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .service-tab:hover .service-heading,
+        .service-tab:hover .service-text,
+        .service-tab:hover .service-link {
+            color: #ffffff;
+        }
+        
+        .service-arrow {
+            display: none;
+            margin-left: 10px;
+        }
+        
+        .service-tab:hover .service-arrow {
+            display: inline-block;
+        }
+        
+        .dots-image {
+            animation-name: floating;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes floating {
+            0% {
+                transform: translate(0, 0px);
+            }
+            50% {
+                transform: translate(-25px, 25px);
+            }
+            100% {
+                transform: translate(0, -0px);
+            }
+        }
+        
+        #expect-us .service-head {
+            margin-bottom: 80px;
+        }
+        
+        .expect {
+            padding: 85.57px 40px;
+        }
+        
+        .expect .card-all-wrap .card {
+            background-color: #fff;
+            width: 100%;
+            max-width: 420px;
+            height: 297.51px;
+            padding: 36.82px 25px;
+            border-radius: 100px 0px;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .expect .card-all-wrap .card img {
+            max-width: 60px;
+            margin-left: 20px;
+            margin-bottom: 9.95px;
+        }
+        
+        .expect .card-all-wrap .card .card-head {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        
+        .expect .card-all-wrap .card .text {
+            max-width: 363px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 27px;
+            margin-top: 16.92px;
+        }
+        
+        .expect .card-all-wrap.wrap {
+            row-gap: 30px;
+        }
+        
+        .expect .card-all-wrap .card:hover {
+            transform: translateY(-10px);
+            /* background: linear-gradient(180deg, #FFFFFF 0%, #F6540E 73.96%); */
+            background: #ffffffed;
+            /* color: var(--white); */
+        }
+        
+        .quote-wrapper {
+            padding: 43.25px 120px;
+        }
+        
+        .quote-section {
+            width: 100%;
+            background: url(/assets/image/Rectangle12.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .quote-wrapper .quote-txt .quote-heading {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            font-family: var(--f-roboto);
+            color: var(--black);
+        }
+        
+        .quote-wrapper .quote-txt .quote-d {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 27px;
+            font-family: var(--f-roboto);
+            color: var(--piimery-font-c);
+            margin-top: 10px;
+        }
+        
+        .quote-wrapper .black-button {
+            margin-top: 0px;
+            padding: 0px 33px;
+        }
+        
+        .mobile {
+            display: none;
+        }
+        
+        @media only screen and (max-width:767px) {
+            .image-with-text-wrapper {
+                flex-wrap: wrap-reverse;
+            }
+            .service-banner .container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .service-banner .image-with-text-wrapper {
+                padding-top: 0px;
+                padding-bottom: 20px;
+            }
+            .service-banner .image-with-text-wrapper .image-tab {
+                padding-left: 0px;
+                width: 100%;
+            }
+            .service-banner .image-with-text-wrapper .image-tab img {
+                max-width: 335px;
+                margin: 20px auto;
+            }
+            .service-banner .image-with-text-wrapper .text-tab {
+                width: 100%;
+            }
+            .banner-sub-text {
+                font-size: 10px;
+                line-height: 15px;
+            }
+            .service-banner .banner-heading {
+                font-size: 24px;
+                line-height: 30px;
+                max-width: 335px;
+            }
+            .service-banner .banner-text {
+                font-size: 14px;
+                line-height: 18px;
+                max-width: 335px;
+            }
+            .button .banner-bt.black {
+                max-width: 116px;
+                height: 40px;
+                font-size: 13px;
+                line-height: 40px;
+            }
+            .all-counter {
+                flex-wrap: wrap;
+            }
+            .all-counter .counter {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            .all-counter .counter .upper {
+                justify-content: center;
+            }
+            .back-txt {
+                display: none;
+            }
+            .our-service.margin-90 {
+                margin-bottom: 0px;
+            }
+            .service-head {
+                margin-bottom: 0px;
+            }
+            .service-head .sub-text {
+                margin-top: -30px;
+                margin-bottom: 25px;
+                font-size: 20px;
+                line-height: 25px;
+            }
+            .service-tabs {
+                padding-bottom: 40px;
+            }
+            .service-tabs .flex-item {
+                width: 100%;
+            }
+            .service-tabs .flex {
+                justify-content: center;
+            }
+            .image-slider-bg {
+                background-color: var(--white);
+            }
+            .image-slider-items .slick-dots {
+                background-color: unset;
+            }
+            .slider-static-text .heading {
+                font-size: 24px;
+                line-height: 30px;
+            }
+            .slider-static-text .text {
+                margin-left: 0px;
+                font-size: 15px;
+                line-height: 27px;
+            }
+            .slider-static-text .text::before {
+                display: none;
+            }
+            .icon-text .text-icon {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .icon-text img {
+                max-width: 40px;
+            }
+            .icon-text-wrapper {
+                justify-content: space-between;
+            }
+            .slider-static-text .buttons {
+                justify-content: space-between;
+            }
+            .slider-static-text .buttons .banner-bt {
+                max-width: 116px;
+                height: 40px;
+                font-size: 13px;
+                line-height: 40px;
+            }
+            .call-icon {
+                width: 25px;
+                height: 25px;
+            }
+            .call-icon-text .call-text {
+                margin-left: 27px;
+            }
+            .call-icon-text .call-text .call-txt {
+                font-size: 12px;
+                line-height: 15px;
+                margin-bottom: 0px;
+            }
+            .call-icon-text .call-text .call-number {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            .image-tab.images-slides {
+                min-height: 500px;
+                width: 100%;
+            }
+            .images-slides .slick-slide img {
+                display: block;
+                height: 500px;
+                width: 100%;
+                object-fit: cover;
+            }
+            .about-image-slider.margin-90 {
+                margin: 60px 0px;
+            }
+            .image-slide-text .sub-text span img {
+                height: 21px !important;
+            }
+            .image-slide-text .sub-text {
+                font-size: 23px;
+                line-height: 25px;
+                margin-bottom: 5px;
+            }
+            .image-slide-text .heading {
+                font-size: 32px;
+                line-height: 40px;
+                margin-bottom: 10px;
+            }
+            .image-slide-text .text {
+                font-size: 15px;
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+            #offer-services {
+                max-height: 949px;
+            }
+            #offer-services .flex {
+                padding-bottom: 72px;
+            }
+            #offer-services .flex .flex-item {
+                width: 100%;
+            }
+            #offer-services .offer-heading {
+                font-size: 24px;
+                line-height: 30px;
+                max-width: 335px;
+            }
+            #offer-services .offer-text {
+                font-size: 15px;
+                line-height: 27px;
+                max-width: 335px;
+            }
+            #offer-services .flex .flex-item .img-with-text {
+                max-width: 335px;
+                margin: 30px auto;
+                margin-top: 72px;
+            }
+            #offer-services .flex .flex-item .img-with-text img {
+                max-width: 80px;
+            }
+            #offer-services .circle {
+                width: 335px;
+                height: 335px;
+            }
+            #offer-services .circle .heading {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
+                margin-left: 26px;
+            }
+            #offer-services .circle .circle-text {
+                font-size: 15px;
+                line-height: 24px;
+                max-width: 245px;
+                margin: 0 auto;
+            }
+            #offer-services .circle .icon {
+                width: 60px;
+                height: 60px;
+            }
+            .desktop {
+                display: none;
+            }
+            .mobile {
+                display: flex;
+            }
+            .mobile-card {
+                display: block;
+            }
+            .our-txt-wrapper .cdk-button {
+                max-width: 116px;
+                font-size: 13px;
+                line-height: 40px;
+                height: 40px;
+                margin-top: 20px;
+            }
+            .card-button {
+                display: inline-block;
+                width: 100%;
+                color: var(--white);
+                max-width: 160px;
+                height: 60px;
+                font-size: 15px;
+                line-height: 60px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .our-txt-wrapper {
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .our-txt-wrapper .card-button.mobile {
+                margin: 0px auto;
+            }
+            .flex.col-3.cardcontainer {
+                margin-top: 30px;
+            }
+            .desktop-card {
+                display: none;
+            }
+            #expect-us .container {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            #expect-us .service-head {
+                margin-bottom: 0px;
+            }
+            .expect {
+                padding: 35px 20px;
+                min-height: 367px;
+                height: 100%;
+                justify-content: center;
+            }
+            .expect .card-all-wrap .card {
+                max-width: 335px;
+                width: 100%;
+            }
+            .expect .card-all-wrap .card .card-head {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .expect .card-all-wrap .card .text {
+                font-size: 15px;
+                line-height: 25px;
+                margin-top: 10px;
+            }
+            .quote-wrapper {
+                flex-wrap: wrap;
+                padding: 0px;
+                text-align: center;
+            }
+            .quote-wrapper .quote-txt .quote-heading {
+                font-size: 24px;
+                line-height: 30px;
+            }
+            .quote-wrapper .quote-txt {
+                padding: 18px 21px 15px;
+            }
+            .quote-wrapper .quote-txt .quote-d {
+                font-size: 15px;
+                line-height: 25px;
+            }
+            .quote-wrapper .black-button {
+                font-size: 13px;
+                line-height: 40px;
+                font-weight: 500;
+                max-width: 116px;
+                padding: 0px 18px;
+                margin: 0px auto;
+                margin-bottom: 22px;
+            }
+            .quote-wrapper .black-button-two {
+                margin: 15px auto;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            .banner-heading {
+                font-size: 50px;
+                line-height: 60px;
+            }
+            .banner-text,
+            .banner-sub-text {
+                font-size: 15px;
+                line-height: 25px;
+            }
+            .service-banner .image-with-text-wrapper .image-tab {
+                padding-left: 24px;
+                padding-top: 77px;
+            }
+            .service-banner .image-with-text-wrapper {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .back-txt {
+                font-size: 95px !important;
+            }
+            .service-tabs .flex {
+                justify-content: center;
+            }
+            .service-tabs .flex-item {
+                width: 100%;
+                max-width: 50%;
+            }
+            .image-slide-text .sub-text span img {
+                height: 21px !important;
+            }
+            .images-slides .image-slider-items .slick-slide img {
+                height: 513px;
+                object-fit: cover;
+            }
+            .slider-head-wrapper .title .our-title {
+                font-size: 19px;
+                line-height: 35px;
+            }
+            .text-tab-padding {
+                padding: 15px;
+            }
+            .text {
+                font-size: 11px;
+                line-height: 18px;
+                margin-bottom: 10px;
+            }
+            .heading {
+                font-size: 21px;
+                line-height: 30px;
+                margin-bottom: 5px;
+            }
+            .slider-static-text .dots-image {
+                max-width: 150px;
+            }
+            .slider-static-text .buttons {
+                margin-top: -15px;
+            }
+            .image-with-text-wrapper {
+                align-items: flex-start;
+            }
+            .icon-text-wrapper {
+                padding: 5px 0px;
+                margin-top: 20px;
+                margin-bottom: 27px;
+            }
+            .banner-bt {
+                max-width: 110px;
+                height: 50px;
+                line-height: 50px;
+            }
+            .call-icon {
+                width: 40px;
+                height: 40px;
+            }
+            .call-text {
+                margin-left: 10px;
+            }
+            .call-text .call-txt {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            .call-text .call-number {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            #offer-services .circle {
+                width: 370px;
+                height: 370px;
+            }
+            #offer-services .circle .icon {
+                width: 65px;
+                height: 65px;
+            }
+            #offer-services .circle .circle-text {
+                font-size: 15px;
+                line-height: 25px;
+            }
+            #offer-services .offer-heading {
+                font-size: 32px;
+                line-height: 42px;
+            }
+            #offer-services .offer-text {
+                font-size: 15px;
+                line-height: 25px;
+            }
+            .expect {
+                padding: 50px 20px;
+                max-height: 980px;
+            }
+            .expect .card-all-wrap.wrap {
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+            .expect .card-all-wrap .card {
+                max-width: 333px;
+                height: 278.51px;
+            }
+            .expect .card-all-wrap .card .card-head {
+                font-size: 18px;
+                line-height: 26px;
+            }
+            .expect .card-all-wrap .card .text {
+                font-size: 15px;
+                line-height: 25px;
+            }
+            .expect .card-all-wrap .card img {
+                max-width: 50px;
+                margin-left: 12px;
+                margin-bottom: 5px;
+            }
+            .quote-wrapper .black-button-two {
+                width: 100%;
+                padding: 0px 50px;
+                max-width: 190px;
+            }
+            .icon-text .text-icon {
+                font-size: 15px;
+                line-height: 18px;
+            }
+            .icon-text img {
+                max-width: 45px;
+            }
+            .call-icon:before {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        
+        @media only screen and (min-width:992px) and (max-width:1280px) {
+            .expect {
+                padding: 50px 20px;
+                max-height: 980px;
+            }
+            .expect .card-all-wrap.wrap {
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: space-evenly;
+            }
+            .expect .card-all-wrap .card {
+                max-width: 300px;
+                height: 278.51px;
+            }
+            .expect .card-all-wrap .card .card-head {
+                font-size: 18px;
+                line-height: 26px;
+            }
+            .expect .card-all-wrap .card .text {
+                font-size: 15px;
+                line-height: 25px;
+            }
+            .expect .card-all-wrap .card img {
+                max-width: 50px;
+                margin-left: 12px;
+                margin-bottom: 5px;
+            }
+            .images-slides .image-slider-items .slick-slide img {
+                height: 589px;
+                object-fit: cover;
+            }
+            .image-slide-text .sub-text span img {
+                height: 21px !important;
+            }
+            .icon-text-wrapper {
+                padding: 15px 0px;
+                margin-top: 12px;
+                margin-bottom: 15px;
+            }
+            .banner-bt {
+                max-width: 140px;
+            }
+            .slider-static-text .buttons {
+                margin-top: 20px;
+            }
+            #offer-services .circle .offer-slider {
+                max-width: 340px;
+            }
+            .text-tab-padding {
+                padding: 25px 30px;
+            }
+            .image-with-text-wrapper {
+                align-items: flex-start;
+            }
+            .quote-wrapper .black-button {
+                padding: 5px 22px;
+                max-width: 150px;
+                width: 100%;
+            }
+            .service-banner .image-with-text-wrapper .image-tab {
+                padding-top: 94px;
+            }
+            .quote-wrapper .black-button-two {
+                padding: 0px 44px;
+                width: 200px;
+            }
+        }
+        
+        @media only screen and (min-width:1281px) and (max-width:1366px) {
+            .expect .card-all-wrap .card {
+                max-width: 390px;
+            }
+            .images-slides .image-slider-items .slick-slide img {
+                height: 688px;
+                object-fit: cover;
+            }
+            .image-slide-text .sub-text span img {
+                height: 21px !important;
+            }
+        }

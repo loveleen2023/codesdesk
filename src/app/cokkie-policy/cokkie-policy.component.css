@@ -1,0 +1,152 @@
+.terms-banner-section {
+    width: 100%;
+    background: linear-gradient(256.67deg, #58F60E 0%, #BFDB38 0.01%, #F6540E 99.65%);
+}
+
+.terms-text-section {
+    margin: 60px 0px;
+}
+
+.service-head .back-txt {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100px;
+    color: transparent;
+    font-family: var(--body-font);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DFE0E5;
+}
+
+.service-head {
+    width: 100%;
+    text-align: center;
+}
+
+.service-head .sub-text {
+    justify-content: center;
+    margin-top: -62px;
+}
+
+.service-head .text {
+    color: #666666;
+    width: 100%;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.service-head {
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.terms-banner-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.terms-banner-heading {
+    font-family: var(--body-font);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    padding: 100px 0px;
+}
+
+.heading-two {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contain-text {
+    margin-left: 20px;
+}
+
+.text {
+    color: var(--piimery-font-c);
+}
+
+.text span {
+    font-weight: bold;
+}
+
+.text-nav {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.policy-nav-item {
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: var(--body-font);
+    color: var(--piimery-font-c);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.contact-terms-text {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.policy-nav-item a,
+.text a {
+    color: var(--black);
+    word-break: break-all;
+}
+
+.policy-nav-item a:hover,
+.text a:hover {
+    color: var(--red);
+}
+
+a {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:767px) {
+    .service-head {
+        margin-bottom: 0px;
+    }
+    .service-head .back-txt {
+        display: none;
+    }
+    .service-head .sub-text {
+        margin-top: 0px;
+        margin-bottom: 35px;
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .terms-banner-heading {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 50px 0px;
+    }
+    .terms-text .heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .text {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .heading-two {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .back-txt {
+        font-size: 95px !important;
+    }
+}

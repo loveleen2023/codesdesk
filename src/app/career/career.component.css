@@ -1,0 +1,504 @@
+/* banner */
+
+.career-bg {
+    background-image: url('/assets/image/career-banner.png');
+    display: block;
+    width: 100%;
+    height: 701px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* icon-with-text */
+
+.left-text-c .sub-text {
+    text-align: left;
+}
+
+.left-text-c .heading {
+    margin-bottom: 64px;
+}
+
+.text-icon .sub-text span {
+    margin-right: 15px;
+}
+
+.service-head .back-txt {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100px;
+    color: transparent;
+    font-family: var(--body-font);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DFE0E5;
+}
+
+.service-head {
+    width: 100%;
+    text-align: center;
+}
+
+.service-head .sub-text {
+    justify-content: center;
+    margin-top: -62px;
+}
+
+.service-head .text {
+    color: #666666;
+    width: 100%;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.service-head {
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+
+/* .text-icon .heading {
+    text-align: center;
+    color: #000;
+} */
+
+.text-icon .txt-l {
+    width: 100%;
+    max-width: 690px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #666666;
+    padding-bottom: 50px;
+}
+
+.about-icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1175px;
+    height: 100%;
+}
+
+.icon-wpapper {
+    width: 200px;
+    height: 200px;
+    background: #F6540E;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.inner-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.main-icon-wrapper {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-icon-wrapper p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 25px;
+    color: #000;
+}
+
+
+/* image-with-text-1 */
+
+.image-with-text-career-1 .sub-text {
+    justify-content: center;
+}
+
+.image-with-text-career-1 .sub-text span {
+    margin-right: 15px;
+}
+
+.image-with-text-career-1 .txt-l {
+    width: 100%;
+    max-width: 966px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #666666;
+    padding-bottom: 50px;
+}
+
+.career-text-1 {
+    padding-left: 50px;
+}
+
+.career-line-1 {
+    width: 100%;
+    max-width: 469px;
+    height: 100%;
+    margin: 0 auto;
+    max-height: 142px;
+}
+
+.career-line-first {
+    padding: 20px 0;
+}
+
+
+/* image-with-text-2 */
+
+.career-text-title {
+    text-transform: uppercase;
+}
+
+.career-image-with-text-2 .text {
+    padding-right: 138px;
+}
+
+.rotate-img {
+    transform: rotateX(165deg);
+}
+
+
+/* career tabs */
+
+.career-tabs {
+    padding: 90px 0 110px;
+}
+
+.career-tabs .sub-text {
+    justify-content: center;
+}
+
+.career-tabs .sub-text span {
+    margin-right: 15px;
+}
+
+.career-tabs .heading {
+    text-align: center;
+    color: #000;
+}
+
+.career-tabs .txt-l {
+    width: 100%;
+    max-width: 966px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+
+.tabcontent h5 {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 20px 0 5px;
+    font-weight: 600;
+}
+
+.tab-list {
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--piimery-font-c);
+}
+
+.tabs {
+    max-width: 1164px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tabcontent p {
+    line-height: 27px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.tab-heading {
+    padding: 17px 30px;
+    background: linear-gradient(269.85deg, #BFDB38 0%, #F6540E 100%);
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px 0 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tabcontent {
+    padding-left: 30px;
+    display: none;
+}
+
+.tab-button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+    padding: 0 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.tab-button:hover {
+    background-color: #F6540E;
+}
+
+.tab-heading::before,
+.tab-heading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.tab-heading::before {
+    right: 30px;
+    width: 3px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.tab-heading::after {
+    right: 21px;
+    width: 20px;
+    height: 3px;
+    margin-top: -2px;
+}
+
+.tab-heading.active::before {
+    transform: rotate(90deg);
+}
+
+.active {
+    display: block;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: 10px 0;
+}
+
+
+/* .icon-wpapper {
+    animation-name: floater;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floater {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 20px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+} */
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .sub-text {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .main-icon-wrapper p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .back-txt {
+        font-size: 95px !important;
+    }
+    .career-image-with-text-2 .text {
+        padding-right: 50px;
+    }
+    .career-bg {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .back-txt {
+        display: none;
+    }
+    .career-bg {
+        height: 266px;
+        background-position: center;
+    }
+    .text-icon {
+        flex-wrap: wrap;
+    }
+    .left-text-c .sub-text {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .left-text-c .heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .text-icon .txt-l {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .about-icon-wrapper {
+        flex-wrap: wrap;
+    }
+    .main-icon-wrapper {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .main-icon-wrapper:last-child {
+        margin-bottom: 60px;
+    }
+    .icon-with-text.margin-90 {
+        margin: 60px 0px;
+    }
+    .service-head {
+        margin-bottom: 25px;
+    }
+    .image-with-text-wrapper {
+        flex-wrap: wrap;
+    }
+    .image-tab {
+        width: 100%;
+    }
+    .career-text-1 {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .career-text-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .text {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    .career-line-first {
+        padding: 0px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .career-line-1 {
+        max-height: 280px;
+    }
+    .career-line-1 img {
+        transform: rotate(0deg) rotateX(0deg);
+    }
+    .career-image-with-text-2 .career-text-2 {
+        width: 100%;
+    }
+    .career-image-with-text-2 .text {
+        padding-right: 0px;
+    }
+    .rotate-img {
+        transform: rotate(0deg) rotateX(0deg);
+    }
+    .image-with-text-wrapper-last {
+        flex-wrap: wrap-reverse !important;
+    }
+    .service-head,
+    .service-head-last {
+        margin-top: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .career-tabs {
+        padding: 60px 0px 0px;
+    }
+    .tabcontent {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+    .tab-heading {
+        margin: 0px 0px 15px;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 15px;
+    }
+    .tabcontent p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .tabcontent h5 {
+        font-size: 15px;
+        padding: 8px 0 5px;
+    }
+    .tab-list {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .tab-button {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding: 0px 22.83px;
+        font-size: 13px;
+        line-height: 40px;
+    }
+    .sub-text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .sub-text .sub-text-icon-left {
+        margin-right: 15px;
+    }
+    .sub-text .sub-text-icon-right {
+        margin-left: 15px;
+        margin-right: 0px !important;
+    }
+    .open-position {
+        margin-bottom: 60px;
+    }
+}

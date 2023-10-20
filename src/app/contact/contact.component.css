@@ -1,0 +1,494 @@
+.about-banner {
+    position: relative;
+}
+
+.about-bg {
+    background-image: url('/assets/image/about-bg.png');
+    display: block;
+    width: 100%;
+    height: 701px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.about-bg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(256.85deg, rgba(191, 219, 56, 0.5) -1.18%, rgba(246, 84, 14, 0.5) 99.4%);
+    z-index: 0;
+}
+
+.about-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1065px;
+    z-index: 1;
+    text-align: center;
+}
+
+.about-text .banner-text {
+    margin-bottom: 46px;
+}
+
+.about-text .banner-text a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+
+/*  */
+
+.contact-us-wrapper {
+    column-gap: 20px;
+}
+
+.contact-heading-red {
+    max-width: 204px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-heading-red .text-red {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: var(--body-font);
+    color: var(--red);
+    text-transform: uppercase;
+}
+
+.contact-heading-red svg {
+    margin-left: 15px;
+}
+
+.contact-heading-black {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: var(--body-font);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.contact-text .text {
+    max-width: 617px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: var(--body-font);
+    color: var(--piimery-font-c);
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.contact-list {
+    /* margin-top: 50px; */
+    margin-left: 11px;
+}
+
+.contact-list .contact {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.contact-list .contact span.top-list {
+    margin-top: -15px;
+}
+
+.contact-list .contact span {
+    background-color: var(--red);
+    padding: 18px;
+    margin-right: 27px;
+    border-radius: 5px;
+    max-height: 60px;
+}
+
+.contact-list .contact span:hover {
+    background: linear-gradient(246.26deg, #BFDB38 0.05%, #F6540E 99.95%);
+}
+
+.contact-list .contact span svg {
+    width: 25px;
+    fill: var(--white);
+}
+
+.contact-list .contact span svg path {
+    fill: #fff;
+}
+
+.contact-text .contact-list .contact .list-head {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: var(--body-font);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.contact-text .contact-list .contact .txt {
+    max-width: 354px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: var(--body-font);
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--piimery-font-c);
+}
+
+.contact-form-wrap {
+    max-width: 690px;
+    width: 100%;
+    background: linear-gradient(230.65deg, #BFDB38 0%, #F6540E 100.26%);
+    min-height: 619px;
+    height: 100%;
+    padding: 30px 15px;
+}
+
+.contact-form-wrap form label input {
+    /* padding: 18px; */
+    max-width: 300.04px;
+    width: 100%;
+}
+
+.contact-form-wrap form input {
+    padding: 18px;
+    width: 100%;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form-wrap form .massage {
+    width: 100%;
+    padding: 15px 0px 207px 14px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: var(--body-font);
+    color: #7A7A7A;
+}
+
+.contact-form-wrap form .black-button-two {
+    max-width: 45%;
+    width: 100%;
+    height: 61px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    background: var(--black);
+    font-family: var(--body-font);
+    border: unset;
+    margin-top: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.map-section {
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+    background: url(/assets/image/Rectangle-map-43.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-section .map-wrapper {
+    max-width: 967px;
+    width: 100%;
+    height: 100%;
+}
+
+.map-section .map-wrapper iframe {
+    width: 100%;
+}
+
+@media only screen and (max-width:767px) {
+    .about-bg {
+        height: 350px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .about-text .banner-heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .about-text .banner-subheading {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about-text .banner-text {
+        max-width: 270px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px !important;
+        margin: 0 auto;
+    }
+    .about-text .banner-buttons .banner-bt {
+        max-width: 116px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
+    }
+    .contact-us.padding-90 {
+        padding: 60px 0px;
+    }
+    .contact-us-wrapper {
+        flex-wrap: wrap;
+    }
+    .contact-heading-red {
+        margin-bottom: 5px;
+    }
+    .contact-heading-red .text-red {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contact-heading-black {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .contact-text .text {
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .contact-list .contact span svg {
+        width: 20.83px;
+    }
+    .contact-list .contact span.top-list {
+        margin-top: 0px;
+    }
+    .contact-list .contact span {
+        padding: 15px 14.17px 14.17px 15px;
+    }
+    .contact-text .contact-list .contact .list-head {
+        font-size: 18px;
+    }
+    .contact-text .contact-list .contact .txt {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .contact-text .contact-list .contact:last-child {
+        margin-bottom: 64px;
+    }
+    .contact-form-wrap {
+        padding: 58px 8px;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+    .contact-form-wrap form label {
+        flex-wrap: wrap;
+    }
+    .contact-form-wrap form label input {
+        width: 100%;
+        max-width: initial;
+    }
+    .map-section {
+        min-height: 520px;
+        width: 89.34%;
+        margin: 0px auto;
+    }
+    .map-section .map-wrapper {
+        max-width: 94%;
+    }
+    .map-section.margin-90-b {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .about-bg {
+        height: 560px;
+    }
+    .about-banner .banner-heading {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    .about-text {
+        max-width: 650px;
+    }
+    .about-banner .banner-subheading {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .about-banner .banner-text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 24px;
+    }
+    .contact-form-wrap {
+        max-width: 50%;
+    }
+    .contact-text .text {
+        margin-bottom: 40px;
+    }
+    .contact-form-wrap form label {
+        column-gap: 20px;
+    }
+    .contact-heading-red .text-red {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .contact-heading-black {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .contact-text .text {
+        font-size: 16px;
+    }
+    .contact-text .contact-list .contact .list-head {
+        font-size: 19px;
+    }
+    .contact-text .contact-list .contact .txt {
+        font-size: 13.5px;
+        line-height: 17.5px;
+    }
+    .contact-form-wrap form label {
+        flex-wrap: wrap;
+    }
+    .contact-form-wrap form label input {
+        max-width: 100%;
+    }
+    .contact-form-wrap form .massage {
+        padding: 15px 0px 170px 14px;
+    }
+    .map-section .map-wrapper {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .contact-form-wrap {
+        max-width: 50%;
+    }
+    .contact-text .text {
+        margin-bottom: 40px;
+    }
+    .contact-form-wrap form label {
+        column-gap: 20px;
+    }
+    /* .contact-form-wrap form label input {
+        max-width: 225px;
+    } */
+}
+
+
+/* @media only screen and (max-width:767px) {
+    .about-bg {
+        height: 350px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .about-text .banner-heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .about-text .banner-subheading {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about-text .banner-text {
+        max-width: 270px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px !important;
+        margin: 0 auto;
+    }
+    .about-text .banner-buttons .banner-bt {
+        max-width: 116px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
+    }
+    .contact-us.padding-90 {
+        padding: 60px 0px;
+    }
+    .contact-us-wrapper {
+        flex-wrap: wrap;
+    }
+    .contact-heading-red {
+        margin-bottom: 5px;
+    }
+    .contact-heading-red .text-red {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contact-heading-black {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .contact-text .text {
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .contact-list .contact span svg {
+        width: 20.83px;
+    }
+    .contact-list .contact span.top-list {
+        margin-top: 0px;
+    }
+    .contact-list .contact span {
+        padding: 15px 14.17px 14.17px 15px;
+    }
+    .contact-text .contact-list .contact .list-head {
+        font-size: 18px;
+    }
+    .contact-text .contact-list .contact .txt {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .contact-text .contact-list .contact:last-child {
+        margin-bottom: 64px;
+    }
+    .contact-form-wrap {
+        padding: 58px 8px;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+    .contact-form-wrap form label {
+        flex-wrap: wrap;
+    }
+    .contact-form-wrap form label input {
+        width: 100%;
+        max-width: initial;
+    }
+    .map-section {
+        min-height: 520px;
+    }
+    .map-section .map-wrapper {
+        max-width: 314px;
+    }
+    .map-section.margin-90-b {
+        margin-bottom: 60px;
+    }
+} */

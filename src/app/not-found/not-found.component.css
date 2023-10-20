@@ -1,0 +1,86 @@
+.not-found {
+    width: 100%;
+}
+
+.not-found-image-wraper {
+    width: 100%;
+    max-width: 782px;
+    margin: 0 auto;
+}
+
+.not-found-text {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.not-found-text .error-heading {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    margin-top: 40px;
+}
+
+.not-found-text .error-text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+.home-btn-error {
+    margin-left: 15px;
+}
+
+.banner-bt.cdk-button {
+    padding: 10px 20px;
+    max-width: 216px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .not-found-text .error-heading {
+        font-size: 54px;
+        line-height: 68px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .not-found-text .error-heading {
+        font-size: 42px;
+        line-height: 62px;
+    }
+    .not-found-text .error-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .not-found-text .banner-bt.cdk-button {
+        padding: 10px 10px;
+        max-width: 190px;
+    }
+    .not-found-image-wraper {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .not-found-text .error-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .not-found-text .error-text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .not-found-text .banner-bt.cdk-button {
+        padding: 0px 12px;
+        max-width: 170px;
+        line-height: 60px;
+        margin-top: 20px;
+    }
+    .not-found.margin-90 {
+        margin: 60px 0;
+    }
+}

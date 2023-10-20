@@ -1,0 +1,452 @@
+.about-banner {
+    position: relative;
+}
+
+.about-bg {
+    background-image: url('/assets/image/about-bg.png');
+    display: block;
+    width: 100%;
+    height: 701px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.about-bg:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(256.85deg, rgba(191, 219, 56, 0.5) -1.18%, rgba(246, 84, 14, 0.5) 99.4%);
+    z-index: 0;
+}
+
+.about-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1065px;
+    z-index: 1;
+    text-align: center;
+}
+
+
+/* bbbb */
+
+.port-heading {
+    width: 100%;
+}
+
+.port-heading .our-p .title {
+    font-weight: 700;
+    font-family: var(--body-font);
+    font-size: 18px;
+    line-height: 27px;
+    color: #F6540E;
+    margin-right: 15px;
+}
+
+.port-heading .our-p svg {
+    max-width: 33px;
+}
+
+.port-heading .port-head {
+    margin-right: 29px;
+}
+
+.port-heading .port-head .heading {
+    max-width: 685px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: var(--body-font);
+}
+
+.port-txt-wrapper .port-text .text {
+    max-width: 686px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: var(--body-font);
+    color: #666666;
+}
+
+.port-menu .nav .nav-item {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.port-menu .nav {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.port-menu .nav .nav-item .nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--black);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: var(--body-font);
+}
+
+.port-menu .nav .nav-item .nav-link:hover {
+    color: var(--red);
+}
+
+.port-menu .nav .nav-item .nav-link::before {
+    content: "";
+    display: none;
+    width: 8px;
+    height: 8px;
+    background-color: var(--red);
+    color: var(--red);
+    margin: 0 auto;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.port-menu .nav .nav-item .nav-link:hover::before {
+    display: block;
+}
+
+.port-images {
+    width: 100%;
+    gap: 20px;
+}
+
+.port-images .port-img-card {
+    width: 32.3%;
+}
+
+.port-images .port-img-card img {
+    max-width: 453px;
+}
+
+.hover-btn-p {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 8px;
+    left: 40px;
+    bottom: 29px;
+    transition: all 0.8s;
+}
+
+.hover-btn-p:hover {
+    background-color: var(--black);
+}
+
+.hover-btn-p:hover .pic-h-btn {
+    color: var(--white);
+}
+
+.hover-btn-p .pic-h-btn {
+    text-decoration: none;
+    margin: auto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    font-family: var(--body-font);
+    color: var(--red);
+}
+
+.port-img-card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(246, 84, 14, 0) 1.04%, #F6540E 92.71%);
+    transform: scaleY(0);
+    transition: transform 0.25s;
+    z-index: 99;
+}
+
+.port-img-card::before {
+    transform-origin: bottom;
+    top: 0;
+}
+
+.port-img-card:hover .hover-btn-p {
+    display: block;
+    z-index: 999;
+}
+
+.port-img-card:hover::before {
+    transform: scaleY(1);
+}
+
+.port-btn {
+    width: 100%;
+    margin-top: 92px;
+    text-align: center;
+}
+
+.port-menu .nav .nav-item .nav-link.active {
+    color: var(--red);
+}
+
+.tablinks.active::before {
+    display: block !important;
+}
+
+@media only screen and (max-width:1366px) {
+    .port-images .port-img-card {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width:1240px) {
+    .port-images .port-img-card {
+        width: 31.9%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .port-images .port-img-card {
+        width: 48.5%;
+    }
+    .about-banner .banner-heading {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    .about-text {
+        max-width: 650px;
+    }
+    .about-banner .banner-subheading {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .about-banner .banner-text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 24px;
+    }
+    .about-bg {
+        height: 560px;
+    }
+    .port-images {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about-bg {
+        height: 350px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .port-images {
+        justify-content: center;
+    }
+    .port-images .port-img-card {
+        width: 100%;
+    }
+    .port-images .port-img-card img {
+        max-width: 100%;
+    }
+    .about-text .banner-heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .about-text .banner-subheading {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about-text .banner-text {
+        max-width: 270px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px !important;
+        margin: 0 auto;
+    }
+    .about-text .banner-buttons .banner-bt {
+        max-width: 116px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
+    }
+    .portfolio-section.margin-90 {
+        margin: 60px 0px 60.71px;
+    }
+    .port-txt-wrapper {
+        flex-wrap: wrap;
+    }
+    .port-txt-wrapper .port-heading .our-p .title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .port-heading .port-head .heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .port-txt-wrapper .port-text .text {
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 0px;
+    }
+    .port-menu .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+        margin: 37px 0px 27px;
+    }
+    .port-menu .nav .nav-item {
+        margin-right: 30px;
+    }
+    .port-menu .nav .nav-item .nav-link {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .port-images {
+        width: 100%;
+        gap: 20.71px;
+    }
+}
+
+
+/* @media only screen and (max-width:767px) {
+    .about-bg {
+        height: 350px;
+    }
+    .about-text {
+        text-align: center;
+    }
+    .about-text .banner-heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .about-text .banner-subheading {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .about-text .banner-text {
+        max-width: 270px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px !important;
+        margin: 0 auto;
+    }
+    .about-text .banner-buttons .banner-bt {
+        max-width: 116px;
+        height: 40px;
+        font-size: 13px;
+        line-height: 40px;
+    }
+    .portfolio-section.margin-90 {
+        margin: 60px 0px;
+    }
+    .port-txt-wrapper {
+        flex-wrap: wrap;
+    }
+    .port-txt-wrapper .port-heading .our-p .title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .port-heading .port-head .heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .port-txt-wrapper .port-text .text {
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 0px;
+    }
+    .port-menu .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+        margin: 37px auto;
+    }
+    .port-menu .nav .nav-item {
+        margin-right: 30px;
+    }
+    .port-images .port-img-card {
+        margin: 0px auto;
+        height: auto;
+    }
+} */
+
+
+/* @media only screen and (min-width:768px) and (max-width:991px) {
+    .about-banner .banner-heading {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    .about-text {
+        max-width: 650px;
+    }
+    .about-banner .banner-subheading {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .about-banner .banner-text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 24px;
+    }
+    .about-bg {
+        height: 560px;
+    }
+    .port-images {
+        gap: 20px;
+        justify-content: center;
+    }
+    .port-images .port-img-card {
+        max-width: 354px;
+        height: 239px;
+    }
+} */
+
+
+/* @media only screen and (min-width:992px) and (max-width:1280px) {
+    .port-images {
+        gap: 20px;
+        justify-content: center;
+    }
+    .port-images .port-img-card {
+        max-width: 304px;
+        height: 205px;
+    }
+}
+
+@media only screen and (min-width:1281px) and (max-width:1400px) {
+    .port-images {
+        gap: 20px;
+        justify-content: center;
+    }
+    .port-images .port-img-card {
+        max-width: 400px;
+        height: 270px;
+    }
+} */

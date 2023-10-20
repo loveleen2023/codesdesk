@@ -1,0 +1,412 @@
+.homepage-banner {
+    width: 100%;
+    background: linear-gradient(256.67deg, #58F60E 0%, #BFDB38 0.01%, #F6540E 99.65%);
+}
+
+.banner-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.image-wrapper {
+    max-width: 448.89px;
+    height: 519.69px;
+    margin: 89px 141.48px 92.31px 0px;
+}
+
+.image-upper img {
+    max-width: 501px;
+    height: 599px;
+    top: 13px;
+    right: 104px;
+}
+
+.text-all {
+    margin-left: 20px;
+}
+
+.banner-heading .heading {
+    max-width: 468px;
+    font-style: normal;
+    font-family: var(--p-font);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.text-image-wrapper .text-wrapper .text-all .banner-heading {
+    margin-bottom: 25px;
+}
+
+.banner-heading .ceo {
+    font-weight: 400;
+    font-family: var(--p-font);
+    font-size: 48px;
+    line-height: 45px;
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+.banner-text-last .text-last {
+    font-style: normal;
+    font-family: var(--p-font);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 585px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.service-head .back-txt {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100px;
+    color: transparent;
+    font-family: var(--body-font);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DFE0E5;
+}
+
+.service-head {
+    width: 100%;
+    text-align: center;
+}
+
+.service-head .sub-text {
+    justify-content: center;
+    margin-top: -62px;
+}
+
+.service-head .text {
+    color: #666666;
+    width: 100%;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.service-head {
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-bottom: 85px;
+}
+
+.our-team {
+    width: 100%;
+}
+
+.our-txt-team {
+    margin: 0 auto;
+    max-width: 242px;
+}
+
+.our-txt-team img {
+    max-width: 33px;
+}
+
+.our-txt-team .our-team {
+    font-weight: 700;
+    font-family: var(--body-font);
+    font-size: 18px;
+    line-height: 27px;
+    color: #F6540E;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.cards {
+    width: 23.5%;
+    max-width: 335px;
+    height: 450px;
+    background: #EDF1F7;
+    transition: 0.8s all ease;
+}
+
+.cards:hover {
+    transform: translate(0px, -15px);
+}
+
+.cards .card-image {
+    max-width: 250px;
+    height: 250px;
+    margin: 27px auto;
+}
+
+.cards .card-txt {
+    text-align: center;
+}
+
+.cards .card-txt .heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: var(--body-font);
+    margin-bottom: 10px;
+}
+
+.cards .card-txt .text-red {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: var(--body-font);
+    color: #F6540E;
+}
+
+.our-txt-two {
+    width: 776px;
+    margin: 10px auto;
+}
+
+.our-txt-two .our-service-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: var(--body-font);
+    color: var(--black);
+}
+
+.team-icons {
+    max-width: 205px;
+    margin: 15px auto;
+}
+
+.team-icons .links {
+    background-color: var(--white);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.team-icons .links svg path {
+    fill: #000000;
+}
+
+.team-icons .links:hover {
+    background-color: var(--red);
+}
+
+.team-icons .links:hover svg path {
+    fill: #ffffff;
+}
+
+.mibile {
+    display: none;
+}
+
+@media only screen and (max-width:767px) {
+    .text-image-wrapper {
+        flex-wrap: wrap-reverse;
+    }
+    .desktop {
+        display: none;
+    }
+    .mibile {
+        display: block;
+    }
+    .image-wrapper {
+        margin: 41px auto 30.17px;
+        padding: 0px 20px;
+        height: auto;
+    }
+    .text-wrapper {
+        width: 100%;
+    }
+    .banner-heading .heading {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+    .banner-heading {
+        margin-bottom: 10px;
+        max-width: 335px;
+    }
+    .banner-heading .ceo {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 10px !important;
+    }
+    .banner-text-last .text-last {
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 97%;
+        margin-bottom: 41px;
+    }
+    .service-head .back-txt {
+        display: none;
+    }
+    .team-member.margin-90 {
+        margin-top: 124px;
+        margin-bottom: 60px;
+    }
+    .our-card-wrapper.margin-40 {
+        margin-top: 25px;
+    }
+    .our-card-wrapper .cards {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    .service-head.center {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .homepage-banner {
+        height: 560px;
+    }
+    .text-image-wrapper {
+        padding-top: 50px;
+    }
+    .image-wrapper {
+        max-width: 324.89px;
+        height: 400.69px;
+        margin: 50px 45.48px 0.31px 0px;
+    }
+    .banner-heading .heading {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner-heading .ceo {
+        font-size: 43px;
+        line-height: 35px;
+    }
+    .banner-text-last .text-last {
+        font-size: 15px;
+        max-width: 500px;
+    }
+    .back-txt {
+        font-size: 95px !important;
+    }
+    .cards {
+        width: 32%;
+        height: 395px;
+    }
+    .cards .card-image {
+        max-width: 190px;
+        height: 190px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .text-image-wrapper {
+        gap: 20px;
+    }
+    .image-wrapper {
+        margin: 89px 50.48px 92.31px 0px;
+    }
+    .cards .card-image {
+        max-width: 190px;
+        height: 190px;
+    }
+    .cards {
+        height: 395px;
+    }
+    .banner-heading .heading {
+        font-size: 60px;
+    }
+    .banner-heading .ceo {
+        font-size: 45px;
+    }
+}
+
+
+/* @media only screen and (max-width:767px) {
+    .text-image-wrapper {
+        flex-wrap: wrap-reverse;
+    }
+    .image-wrapper {
+        margin: 41px auto;
+        height: auto;
+    }
+    .text-wrapper {
+        width: 100%;
+    }
+    .banner-heading .heading {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+    .banner-heading {
+        margin-bottom: 10px;
+        max-width: 335px;
+        margin: 0px auto;
+    }
+    .banner-heading .ceo {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 10px !important;
+    }
+    .banner-text-last {
+        max-width: 335px;
+        margin: 0px auto;
+    }
+    .banner-text-last .text-last {
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 335px;
+        margin-bottom: 41px;
+    }
+    .service-head .back-txt {
+        display: none;
+    }
+    .team-member.margin-90 {
+        margin-top: 118px;
+    }
+    .our-card-wrapper.margin-40 {
+        margin-top: 25px;
+    }
+    .our-card-wrapper .cards {
+        margin: 0 auto;
+    }
+    .service-head.center {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .banner-heading .heading {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner-heading .ceo {
+        font-size: 35px;
+        line-height: 25px;
+    }
+    .banner-text-last .text-last {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .image-wrapper {
+        max-width: 300px;
+        height: 375px;
+        margin: 65px 35px 20px 20px;
+    }
+    .back-txt {
+        font-size: 95px !important;
+    }
+    .our-card-wrapper {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .our-card-wrapper {
+        justify-content: center;
+        gap: 20px;
+    }
+    .cards {
+        max-width: 300px;
+    }
+    .image-wrapper {
+        margin: 65px 35px;
+    }
+} */

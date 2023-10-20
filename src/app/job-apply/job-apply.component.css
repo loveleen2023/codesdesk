@@ -1,0 +1,183 @@
+.our-service {
+    width: 100%;
+    background-image: url(/assets/image/h3-bg-section.png);
+}
+
+.service-head .back-txt {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100px;
+    color: transparent;
+    font-family: var(--body-font);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DFE0E5;
+}
+
+.service-head {
+    width: 100%;
+    text-align: center;
+}
+
+.service-head .sub-text {
+    justify-content: center;
+    margin-top: -62px;
+}
+
+.service-head .text {
+    color: #666666;
+    width: 100%;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.service-head {
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.form-wrapper {
+    max-width: 690px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 38px 36px;
+}
+
+.form-wrapper form label input {
+    max-width: 300px;
+}
+
+.form-wrapper form input {
+    width: 100%;
+    padding: 13px 14px 14px 14px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: var(--body-font);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.form-wrapper form input::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--f-text);
+    font-family: var(--body-font);
+}
+
+.form-wrapper form select {
+    width: 100%;
+    padding: 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: #FFFFFF;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--f-text);
+    font-family: var(--body-font);
+}
+
+.form-wrapper form select option {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: var(--body-font);
+}
+
+.custom {
+    border: none;
+    border-radius: 5px;
+    margin-top: 36px;
+    color: var(--white);
+    box-shadow: none;
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 51px;
+}
+
+#Position,
+#experience {
+    -webkit-appearance: none;
+    background-image: url("/assets/image/Vector111.svg");
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 22px;
+    margin-right: 2rem;
+    padding-right: 2rem;
+}
+
+#experience .inner-option {
+    max-width: 618px;
+}
+
+.form-wrapper form input[type=file] {
+    padding: 0px;
+    color: var(--f-text);
+}
+
+.c-file[type=file]::-webkit-file-upload-button {
+    padding: 15px 38px;
+    background: #666666;
+    border-radius: 5px;
+    color: var(--white);
+    margin-right: 23px;
+    border: none;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:767px) {
+    .job-apply.padding-90 {
+        padding: 60px 0px;
+    }
+    .service-head {
+        margin-bottom: 0px;
+    }
+    .service-head .back-txt {
+        display: none;
+    }
+    .service-head .sub-text {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .form-wrapper {
+        padding: 0px;
+        margin-top: 25px;
+    }
+    .form-wrapper form label {
+        flex-wrap: wrap;
+    }
+    .form-wrapper form label input {
+        width: 100%;
+        max-width: initial;
+    }
+    .form-wrapper form input,
+    .form-wrapper form select {
+        margin-bottom: 15px;
+    }
+    #experience,
+    #Position {
+        margin-right: 0px;
+    }
+    .custom {
+        margin-top: 0px;
+    }
+    .c-file[type=file]::-webkit-file-upload-button {
+        padding: 15px 10.66px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .back-txt {
+        font-size: 95px !important;
+    }
+}
